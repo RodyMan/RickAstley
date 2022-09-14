@@ -4,10 +4,11 @@
 	<meta charset="utf-8">
 	<link rel="icon" href="Foundationlogo.png">
 	<link rel="stylesheet" type="text/css" href="styles.css">
-	<script type="module" src="https://unpkg.com/x-frame-bypass"></script>
+	<script src="https://unpkg.com/@ungap/custom-elements-builtin"></script>
+	<script src="x-frame-bypass.js" type="module"></script>
 	<title> Test </title>
 </head>
 <body>
-	<iframe src="https://google.com/"></iframe>
+	<iframe is="x-frame-bypass" src="https://news.ycombinator.com/"></iframe>
 </body>
 </html>
